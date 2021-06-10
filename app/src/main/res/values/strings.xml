@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Hotel King</string>
+
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="hotel_king">Hotel King Management</string>
+    <string name="details"><![CDATA[Did you know that we’ve got 2.5 Crore bookings since March 2020? And this is all thanks to the sanitisation & safety measures followed at our properties, from disinfecting surfaces with high-quality cleaning products and maintaining social distance to using protective gear and more.]]></string>
+    <string name="book_now">Book Now</string>
+    <string name="check_out">Check Out</string>
+    <string name="roombook_deatils">RoomBook Deatils</string>
+    <string name="todo">TODO</string>
+    <string name="cancel">cancel</string>
+    <string name="sumbit">sumbit</string>
+    <string name="user_name">Name</string>
+    <string name="address">Address</string>
+    <string name="permit_document">your stay room count was 20 days and confirm your room vacate click the ok button</string>
+    <string name="hi">Hi..</string>
+    <string name="_0">0</string>
+    <string name="days">Days</string>
+    <string name="count">Count :</string>
+    <string name="name">Name :</string>
+    <string name="addresse">Address :</string>
+
+</resources>

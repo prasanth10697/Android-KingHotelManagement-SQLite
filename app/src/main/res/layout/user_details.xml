@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    app:cardCornerRadius="12sp">
+
+
+    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="320sp"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="@color/purple_500"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                android:layout_marginStart="12sp"
+                android:layout_marginEnd="12sp"
+                android:layout_marginTop="12sp"
+                app:hintTextColor="@color/purple_200"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="@string/user_name"
+                android:textColorHint="@color/balck_light"
+                tools:ignore="MissingConstraints">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:padding="12dp"
+                    android:textColor="@color/balck_light"
+                    android:textSize="18sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="320sp"
+                android:layout_height="82sp"
+                app:boxStrokeColor="@color/purple_500"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                android:layout_marginStart="12sp"
+                android:layout_marginEnd="12sp"
+                android:layout_marginTop="12sp"
+                app:hintTextColor="@color/purple_200"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="@string/address"
+                android:textColorHint="@color/balck_light"
+                tools:ignore="MissingConstraints">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/user_add"
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:inputType="text"
+                    android:padding="12dp"
+                    android:textColor="@color/balck_light"
+                    android:textSize="18sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="22sp"
+            android:background="@color/white_color"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_sumbit"
+                android:layout_width="wrap_content"
+                android:layout_height="42sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12sp"
+                android:background="@drawable/btn_shape_black_round"
+                android:text="@string/sumbit"
+                android:textColor="@color/cardview_dark_background"
+                tools:ignore="PrivateResource" />
+
+            <Button
+                android:id="@+id/close_popup"
+                android:layout_width="wrap_content"
+                android:layout_height="42sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12sp"
+                android:background="@drawable/btn_shape_black_round"
+                android:text="@string/cancel"
+                android:textColor="@color/cardview_dark_background"
+                tools:ignore="PrivateResource" />
+
+
+        </LinearLayout>
+
+
+    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+
+</androidx.cardview.widget.CardView>
